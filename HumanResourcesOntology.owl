@@ -1,0 +1,1506 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dlsn6/ontologies/2017/4/untitled-ontology-37"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dlsn6/ontologies/2017/4/untitled-ontology-37">
+    <Prefix name="" IRI="http://www.semanticweb.org/dlsn6/ontologies/2017/4/untitled-ontology-37#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-37" IRI="http://www.semanticweb.org/dlsn6/ontologies/2017/4/untitled-ontology-37#"/>
+    <Import>http://xmlns.com/foaf/0.1/</Import>
+    <Declaration>
+        <ObjectProperty IRI="#developedProgLangBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BusinessSector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsedIdeBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/dc/terms/Agent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xamarin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeveloperProgLangOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeveloperIdeOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IDEs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#code_with_languages"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#useAlcohol"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUseOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpersonal_Skill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NetleYazılım"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MicrosoftSQLServer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDepartment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#.NET_Project1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualCSharp.NET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department_of_Faculty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComputerEngineering"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#compulsory_Candidate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUseIdeOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualStudioMac"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeveloperOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASP.NET"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Graduate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AzureAppService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ApplicationInsights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ScriptingLanguages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isKnow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competencies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tools"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FOAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foreign_Languages"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualJ++"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SabahTech"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsedProgLangBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JScript.NET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SOAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualStudioCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGivenBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.pizza.com/ontologies/pizza.owl#Skills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualBasic.NET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ReadingBook"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUseProgLangOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Competencies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavioral_Competencies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technologies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBehavioral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnderGraduate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/CreativeWork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee_Candidate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technical_Skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graduate_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hobbies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Candidate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Programming_Languages"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighSchool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cigarette"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGraduateType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isApply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/ImageObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual.NET_Programmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransactSQL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEmpKnow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gives"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Undergraduate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualStudioCommunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualStudioTeamService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeveloperToolOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GarantiTeknoloji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MicrosoftRServer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#educatedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ODTU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lectures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VBScript"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#beParticipate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualC++.NET"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XML"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TraineeCandidate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IntelligenceOfCandidate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UniversalWindowsPlatfomVM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Azure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JScript"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHired"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TeamWork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cycling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Havelsan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFunctional"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#jobRequirements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#codeWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUseToolOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualCSharp.NET_Project2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#developedToolBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HockeyApp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EgeUniversity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graduate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aselsan"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#developedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#developedIdeBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UsedToolBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWorked"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/dc/terms/Agent"/>
+        <Class IRI="#FOAF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/CreativeWork"/>
+        <Class IRI="#FOAF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/ImageObject"/>
+        <Class IRI="#FOAF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Person"/>
+        <Class IRI="#FOAF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.pizza.com/ontologies/pizza.owl#Skills"/>
+        <Class IRI="#Functional_Competencies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavioral_Competencies"/>
+        <Class IRI="#Competencies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Candidate"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Department"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Department_of_Faculty"/>
+        <Class IRI="#Faculty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee_Candidate"/>
+        <Class IRI="#Candidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foreign_Languages"/>
+        <Class IRI="#Functional_Competencies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional_Competencies"/>
+        <Class IRI="#Competencies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graduate"/>
+        <Class IRI="#Graduate_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habits"/>
+        <Class IRI="#Behavioral_Competencies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hobbies"/>
+        <Class IRI="#Behavioral_Competencies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IDEs"/>
+        <Class IRI="#Technologies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpersonal_Skill"/>
+        <Class IRI="http://www.pizza.com/ontologies/pizza.owl#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Programming_Languages"/>
+        <Class IRI="#Technologies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technical_Skill"/>
+        <Class IRI="http://www.pizza.com/ontologies/pizza.owl#Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tools"/>
+        <Class IRI="#Technologies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TraineeCandidate"/>
+        <Class IRI="#Candidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnderGraduate"/>
+        <Class IRI="#Graduate_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#University"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSome"/>
+            <Class IRI="#Graduate_Type"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+        <Class IRI="#FOAF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+        <Class IRI="#FOAF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSome"/>
+            <Class IRI="#Candidate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://xmlns.com/foaf/0.1/knows"/>
+            <Class IRI="#Technologies"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasGraduateType"/>
+            <Class IRI="#Graduate_Type"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Employee_Candidate"/>
+        <Class IRI="#TraineeCandidate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Graduate"/>
+        <Class IRI="#UnderGraduate"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Tools"/>
+        <NamedIndividual IRI="#ApplicationInsights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <NamedIndividual IRI="#Aselsan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDEs"/>
+        <NamedIndividual IRI="#Azure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tools"/>
+        <NamedIndividual IRI="#AzureAppService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habits"/>
+        <NamedIndividual IRI="#Cigarette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hobbies"/>
+        <NamedIndividual IRI="#Cycling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#EgeUniversity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <NamedIndividual IRI="#GarantiTeknoloji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Department"/>
+        <NamedIndividual IRI="#HR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tools"/>
+        <NamedIndividual IRI="#HockeyApp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Department"/>
+        <NamedIndividual IRI="#IT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#JScript.NET"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tools"/>
+        <NamedIndividual IRI="#MicrosoftRServer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <NamedIndividual IRI="#NetleYazılım"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#ODTU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Candidate"/>
+        <NamedIndividual IRI="#Person1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnderGraduate"/>
+        <NamedIndividual IRI="#Person1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <NamedIndividual IRI="#Person1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Employee_Candidate"/>
+        <NamedIndividual IRI="#Person2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graduate"/>
+        <NamedIndividual IRI="#Person2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <NamedIndividual IRI="#Person2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <NamedIndividual IRI="#Person3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <NamedIndividual IRI="#Person4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hobbies"/>
+        <NamedIndividual IRI="#ReadingBook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#SOAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <NamedIndividual IRI="#SabahTech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#ScriptingLanguages"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interpersonal_Skill"/>
+        <NamedIndividual IRI="#TeamWork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#TransactSQL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tools"/>
+        <NamedIndividual IRI="#UniversalWindowsPlatfomVM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#VBScript"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technical_Skill"/>
+        <NamedIndividual IRI="#Visual.NET_Programmer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#VisualBasic.NET"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDEs"/>
+        <NamedIndividual IRI="#VisualStudioCode"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDEs"/>
+        <NamedIndividual IRI="#VisualStudioCommunity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDEs"/>
+        <NamedIndividual IRI="#VisualStudioMac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDEs"/>
+        <NamedIndividual IRI="#VisualStudioTeamService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#XML"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IDEs"/>
+        <NamedIndividual IRI="#Xamarin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Habits"/>
+        <NamedIndividual IRI="#useAlcohol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#VisualC++.NET"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Programming_Languages"/>
+        <NamedIndividual IRI="#VisualJ++"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Graduate"/>
+        <NamedIndividual IRI="#Undergraduate"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDept"/>
+        <NamedIndividual IRI="#EgeUniversity"/>
+        <NamedIndividual IRI="#ComputerEngineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isUseToolOf"/>
+        <NamedIndividual IRI="#GarantiTeknoloji"/>
+        <NamedIndividual IRI="#MicrosoftSQLServer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDepartment"/>
+        <NamedIndividual IRI="#Havelsan"/>
+        <NamedIndividual IRI="#HR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isHired"/>
+        <NamedIndividual IRI="#Havelsan"/>
+        <NamedIndividual IRI="#Person1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDeveloperProgLangOf"/>
+        <NamedIndividual IRI="#Microsoft"/>
+        <NamedIndividual IRI="#JScript"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beParticipate"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#VisualCSharp.NET_Project2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beParticipate"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#.NET_Project1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#educatedBy"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#EgeUniversity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBehavioral"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#Cycling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFunctional"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#TeamWork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGraduateType"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#Undergraduate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isApply"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#Havelsan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isKnow"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#ASP.NET"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isKnow"/>
+        <NamedIndividual IRI="#Person1"/>
+        <NamedIndividual IRI="#VisualCSharp.NET"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#beParticipate"/>
+        <NamedIndividual IRI="#Person2"/>
+        <NamedIndividual IRI="#.NET_Project1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#educatedBy"/>
+        <NamedIndividual IRI="#Person2"/>
+        <NamedIndividual IRI="#EgeUniversity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBehavioral"/>
+        <NamedIndividual IRI="#Person2"/>
+        <NamedIndividual IRI="#ReadingBook"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGraduateType"/>
+        <NamedIndividual IRI="#Person2"/>
+        <NamedIndividual IRI="#Graduate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEmpKnow"/>
+        <NamedIndividual IRI="#Person2"/>
+        <NamedIndividual IRI="#ASP.NET"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#educatedBy"/>
+        <NamedIndividual IRI="#Person3"/>
+        <NamedIndividual IRI="#ODTU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#educatedBy"/>
+        <NamedIndividual IRI="#Person4"/>
+        <NamedIndividual IRI="#HighSchool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#codeWith"/>
+        <NamedIndividual IRI="#VisualCSharp.NET_Project2"/>
+        <NamedIndividual IRI="#VisualCSharp.NET"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#codeWith"/>
+        <NamedIndividual IRI="#.NET_Project1"/>
+        <NamedIndividual IRI="#ASP.NET"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BusinessSector"/>
+        <NamedIndividual IRI="#Havelsan"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Information Technologies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#compulsory_Candidate"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jobRequirements"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Computer Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Person1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dilsen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#jobRequirements"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Computer Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Person2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Eray</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+        <NamedIndividual IRI="#Person3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+        <NamedIndividual IRI="#Person4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UsedIdeBy"/>
+        <ObjectProperty IRI="#UsedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UsedProgLangBy"/>
+        <ObjectProperty IRI="#UsedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#UsedToolBy"/>
+        <ObjectProperty IRI="#UsedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#developedIdeBy"/>
+        <ObjectProperty IRI="#developedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#developedProgLangBy"/>
+        <ObjectProperty IRI="#developedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#developedToolBy"/>
+        <ObjectProperty IRI="#developedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDeveloperIdeOf"/>
+        <ObjectProperty IRI="#isDeveloperOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDeveloperProgLangOf"/>
+        <ObjectProperty IRI="#isDeveloperOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDeveloperToolOf"/>
+        <ObjectProperty IRI="#isDeveloperOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isUseIdeOf"/>
+        <ObjectProperty IRI="#isUseOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isUseProgLangOf"/>
+        <ObjectProperty IRI="#isUseOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isUseToolOf"/>
+        <ObjectProperty IRI="#isUseOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UsedBy"/>
+        <ObjectProperty IRI="#isUseOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UsedIdeBy"/>
+        <ObjectProperty IRI="#isUseIdeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UsedProgLangBy"/>
+        <ObjectProperty IRI="#isUseProgLangOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UsedToolBy"/>
+        <ObjectProperty IRI="#isUseToolOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#developedBy"/>
+        <ObjectProperty IRI="#isDeveloperOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#developedIdeBy"/>
+        <ObjectProperty IRI="#isDeveloperIdeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#developedProgLangBy"/>
+        <ObjectProperty IRI="#isDeveloperProgLangOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#developedToolBy"/>
+        <ObjectProperty IRI="#isDeveloperToolOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#gives"/>
+        <ObjectProperty IRI="#isGivenBy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#has"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#contains"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasSome"/>
+        <Class IRI="#University"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsedBy"/>
+        <Class IRI="#Technologies"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsedIdeBy"/>
+        <Class IRI="#IDEs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsedProgLangBy"/>
+        <Class IRI="#Programming_Languages"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#UsedToolBy"/>
+        <Class IRI="#Tools"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#beParticipate"/>
+        <Class IRI="#Candidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#codeWith"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Lectures"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developedBy"/>
+        <Class IRI="#Technologies"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developedIdeBy"/>
+        <Class IRI="#IDEs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developedProgLangBy"/>
+        <Class IRI="#Programming_Languages"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developedToolBy"/>
+        <Class IRI="#Tools"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#educatedBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBehavioral"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDepartment"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDept"/>
+        <Class IRI="#University"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFunctional"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isApply"/>
+        <Class IRI="#TraineeCandidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDeveloperIdeOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDeveloperOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDeveloperProgLangOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDeveloperToolOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEmpKnow"/>
+        <Class IRI="#Employee_Candidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGivenBy"/>
+        <Class IRI="#Lectures"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHired"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isKnow"/>
+        <Class IRI="#TraineeCandidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUseIdeOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUseOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUseProgLangOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUseToolOf"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWorked"/>
+        <Class IRI="#Candidate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSome"/>
+        <Class IRI="#Graduate_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsedBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsedIdeBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsedProgLangBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#UsedToolBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#beParticipate"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#codeWith"/>
+        <Class IRI="#Programming_Languages"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#IDEs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Programming_Languages"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Tools"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developedBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developedIdeBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developedProgLangBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developedToolBy"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBehavioral"/>
+        <Class IRI="#Behavioral_Competencies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDepartment"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDept"/>
+        <Class IRI="#Department_of_Faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFunctional"/>
+        <Class IRI="#Functional_Competencies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGraduateType"/>
+        <Class IRI="#Graduate_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isApply"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDeveloperIdeOf"/>
+        <Class IRI="#IDEs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDeveloperOf"/>
+        <Class IRI="#Technologies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDeveloperProgLangOf"/>
+        <Class IRI="#Programming_Languages"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDeveloperToolOf"/>
+        <Class IRI="#Tools"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEmpKnow"/>
+        <Class IRI="#Technologies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGivenBy"/>
+        <Class IRI="#University"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHired"/>
+        <Class IRI="#Candidate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isKnow"/>
+        <Class IRI="#Technologies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUseIdeOf"/>
+        <Class IRI="#IDEs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUseOf"/>
+        <Class IRI="#Technologies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUseProgLangOf"/>
+        <Class IRI="#Programming_Languages"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUseToolOf"/>
+        <Class IRI="#Tools"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWorked"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/knows"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#beParticipate"/>
+            <ObjectProperty IRI="#codeWith"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#code_with_languages"/>
+    </SubObjectPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BusinessSector"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IntelligenceOfCandidate"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#compulsory_Candidate"/>
+        <Class IRI="#TraineeCandidate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#jobRequirements"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#BusinessSector"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IntelligenceOfCandidate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#compulsory_Candidate"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#jobRequirements"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Person1 isApply Havelsan and Havelsan isHired Person1, so Person1 isWorked Havelsan</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Candidate"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isApply"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#c"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+                <Variable IRI="#c"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isHired"/>
+                <Variable IRI="#w"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isWorked"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#w"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Person1 isApply Havelsan, so Havelsan is an Organization.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Candidate"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isApply"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#company"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+                <Variable IRI="#company"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Person1 beParticipate .NET_Project, so .NET_Project is an Project</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#TraineeCandidate"/>
+                <Variable IRI="#trC"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#beParticipate"/>
+                <Variable IRI="#trC"/>
+                <Variable IRI="#project"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+                <Variable IRI="#project"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Person3 hasAges lessThan 18 and goes to University, so Person3 is &quot;highIntelligence&quot;</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule6</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="http://xmlns.com/foaf/0.1/age"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+            </BuiltInAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#educatedBy"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#uni"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#University"/>
+                <Variable IRI="#uni"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#IntelligenceOfCandidate"/>
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">highIntelligence</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EgeUniversity hasDept ComputerEngineering, so ComputerEngineering is a Department_of_Faculty.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#University"/>
+                <Variable IRI="#uni"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDept"/>
+                <Variable IRI="#uni"/>
+                <Variable IRI="#deptFac"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Department_of_Faculty"/>
+                <Variable IRI="#deptFac"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">.NET_Project codeWith ASP.NET, so ASP.NET is a Programming_Languages</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#codeWith"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#prolang"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Programming_Languages"/>
+                <Variable IRI="#prolang"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Candidate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">&quot;A class that keeps candidate&apos;s information.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Technologies</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Software Technologies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#University</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A class that keep Universities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>rdfs:comment</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">&quot;A class that keeps all person recording.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/Organization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A class Organization means Company.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
